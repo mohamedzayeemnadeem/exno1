@@ -80,6 +80,7 @@ delid=ir[~((ir.sepal_width<(c1-1.5*iq))|(ir.sepal_width>(c3+1.5*iq)))]
 delid
 ``` 
 ![image](https://github.com/user-attachments/assets/e918061f-8fc1-4696-8d36-27677e7b82b3)
+
 ![image](https://github.com/user-attachments/assets/314fe55e-5905-4f56-8ccc-679f0c6a4128)
 ``` 
 sns.boxplot(x='sepal_width',data=delid)
